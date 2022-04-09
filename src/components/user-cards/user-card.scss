@@ -1,0 +1,23 @@
+.cmp-user-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+
+  .cmp-user-card {
+    margin: 12px 12px;
+    flex: 0 1 23%;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 30px 15px;
+
+    .cmp-user-card__heading {
+      margin-bottom: 0;
+    }
+    .cmp-user-card__sub-heading {
+      font-size: 1rem;
+      margin-bottom: 1em;
+    }
+  }
+}
